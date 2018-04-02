@@ -1,4 +1,4 @@
-package DataStructuresAbstractionDesign.chapter3.Stacks;
+package Chapter3.Stacks;
 
 // IMPORTS
 import java.util.Stack;

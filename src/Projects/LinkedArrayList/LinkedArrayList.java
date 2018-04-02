@@ -1,6 +1,4 @@
-package DataStructureProjects.LinkedArrayList;
-
-import DataStructuresAbstractionDesign.chapter3.Stacks.ParenthesesChecker;
+package Projects.LinkedArrayList;
 
 public class LinkedArrayList <E>
 {

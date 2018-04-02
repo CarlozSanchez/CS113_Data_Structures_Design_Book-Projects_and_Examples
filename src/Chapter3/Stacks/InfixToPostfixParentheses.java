@@ -1,4 +1,4 @@
-package DataStructuresAbstractionDesign.chapter3.Stacks;
+package Chapter3.Stacks;
 
 
 import java.util.EmptyStackException;
