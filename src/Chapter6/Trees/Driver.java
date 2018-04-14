@@ -27,26 +27,34 @@ public class Driver
         System.out.println(pQue);
     }
 
-    public String readFile()
+    public String buildString(File file)
     {
 
-        File file = new File(FILE_NAME);
-        FileInputStream intputStream;
+        Scanner inputStream = null;
+        StringBuilder sb  = new StringBuilder();
 
         try
         {
-            file = new FileInputStream(new Scanner(file));
+            inputStream = new Scanner(new FileInputStream(file));
         }
         catch(FileNotFoundException e)
         {
-            //left off here
+            System.out.println(file.getName() + " was not found or could not " +
+                "be opened");
+            return null;
         }
 
+        while(inputStream.hasNext())
+        {
+            sb.append(inputStream.nextLine());
+        }
+
+        return sb.toString();
     }
 
     private class CharacterFrequencyList
     {
-        int buffer = 5;
+
         private ArrayList<CharacterFrequency> list;
 
         public void addCharacter(char c)
@@ -67,6 +75,8 @@ public class Driver
 
         public String toString()
         {
+            int buffer = 5;
+
             StringBuilder sbA = new StringBuilder();
             StringBuilder sbB = new StringBuilder();
 
