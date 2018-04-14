@@ -1,7 +1,11 @@
 package Chapter6.Trees;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.util.PriorityQueue;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Driver
 {
@@ -21,6 +25,23 @@ public class Driver
         }
 
         System.out.println(pQue);
+    }
+
+    public String readFile()
+    {
+
+        File file = new File(FILE_NAME);
+        FileInputStream intputStream;
+
+        try
+        {
+            file = new FileInputStream(new Scanner(file));
+        }
+        catch(FileNotFoundException e)
+        {
+            //left off here
+        }
+
     }
 
     private class CharacterFrequencyList
