@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="293c15fb-e7e2-4722-81c1-1d0e40efbf53" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/MathSquences/Driver.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS113_Data_Structures_Design_Book-Projects_and_Examples/Chapter6/Trees/Driver.class" afterPath="$PROJECT_DIR$/out/production/CS113_Data_Structures_Design_Book-Projects_and_Examples/Chapter6/Trees/Driver.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
