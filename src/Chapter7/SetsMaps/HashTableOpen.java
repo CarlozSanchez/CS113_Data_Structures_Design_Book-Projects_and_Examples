@@ -63,7 +63,7 @@ public class HashTableOpen <K,V> implements KWHashMap<K,V>
      * LOAD_THRESHOLD is exceeded, the table is expanded.
      * @param key The key of item being inserted.
      * @param value The value to associate with key.
-     * @return Old value accosiated with this key if found, otherwise , null.
+     * @return Old value associated with this key if found, otherwise , null.
      */
     @Override
     public V put(K key, V value)
@@ -164,7 +164,7 @@ public class HashTableOpen <K,V> implements KWHashMap<K,V>
 
     /**
      * METHOD: Expands table size when loadFactor exceeds LOAD_THRESHOLD
-     * P0STCONDITION: The size of the table is doubled and is an odd interger.
+     * P0STCONDITION: The size of the table is doubled and is an odd integer.
      * Each nondeleted entry from the original table is reinserted into the
      * expanded table. The value of numKeys is reset to the number of items
      * actually inserted; numDeletes is reset to 0.
@@ -245,8 +245,6 @@ public class HashTableOpen <K,V> implements KWHashMap<K,V>
             this.value = value;
             return oldValue;
         }
-
-
     }
 
 }
