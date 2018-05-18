@@ -1,8 +1,8 @@
 package Chapter10.Graphs;
 
-import com.teamdev.jxbrowser.chromium.Browser;
+//import com.teamdev.jxbrowser.chromium.Browser;
 //import com.teamdev.jxbrowser.chromium.BrowserFactory;
-import com.teamdev.jxbrowser.chromium.swing.BrowserView;
+//import com.teamdev.jxbrowser.chromium.swing.BrowserView;
 import javax.swing.*;
 import java.awt.*;
 
@@ -14,15 +14,15 @@ public class GraphDriver
 {
     public static void main(String[] args)
     {
-        Browser browser = new Browser();
-        BrowserView view = new BrowserView(browser);
-
-        JFrame frame = new JFrame();
-        frame.add(view, BorderLayout.CENTER);
-        frame.setSize(700, 500);
-        frame.setVisible(true);
-
-        browser.loadURL("http://www.google.com");
+//        Browser browser = new Browser();
+//        BrowserView view = new BrowserView(browser);
+//
+//        JFrame frame = new JFrame();
+//        frame.add(view, BorderLayout.CENTER);
+//        frame.setSize(700, 500);
+//        frame.setVisible(true);
+//
+//        browser.loadURL("http://www.google.com");
 
 
 //        Browser browser = BrowserFactory.create();
